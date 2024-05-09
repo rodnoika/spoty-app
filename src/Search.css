@@ -1,0 +1,164 @@
+li{
+  list-style-type: none;
+}
+ul {
+  padding: 0;
+}
+body {
+  background-color: black;
+}
+.sidebar {
+  width: 250px; 
+  height: 100%;
+  background-color: #333; 
+  position: fixed;
+  left: 0;
+  top: 0;
+  overflow-y: auto; 
+  transition: width 0.3s ease;
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+      width: 100%; 
+  }
+}
+.content {
+  margin-left: 250px;
+  padding: 20px; 
+  background-color: black; 
+  box-sizing: border-box;
+  color: whitesmoke;
+}
+
+.horizontal-list {
+  list-style-type: none;
+  padding: 0;
+  width: 100%;
+}
+
+.horizontal-list li {
+  display: inline-block; 
+  margin-right: 10px;
+  font-size: 30px;
+}
+
+.horizontal-list li:last-child {
+  margin-right: 0; 
+  margin-top: 0;
+}
+/* Ticket.css */
+.ticket {
+  display: inline-block;
+  width: 180px;
+  margin-left: 0px;
+  padding: 10px;
+  border: 2px solid #000;
+  border-radius: 30px;
+  text-align: center;
+  position: relative;
+  padding: 10px; 
+  transition: border 0.3s ease; 
+  color: white;
+}
+.ticket:hover {
+  border: 2px solid #fff; 
+}
+.ticket:hover .avatar {
+  position: relative;
+}
+.ticket:hover .avatar::after {
+  content: "";
+  position: absolute;
+  top: 75%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+  width: 40px;
+  height: 40px;
+  background-color: green;
+  border-radius: 50%;
+}
+
+.avatar {
+  margin-bottom: 10px;
+  position: relative; 
+}
+
+.avatar img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+}
+
+
+.start-button {
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  opacity: 0; 
+  transition: opacity 0.3s ease;
+}
+
+.avatar:hover .start-button {
+  opacity: 1; 
+}
+.role {
+  font-size: small;
+  margin-top: 10px;
+}
+.name {
+  margin-left: -30px;
+  font-weight:bolder;
+  font-size: 20px;
+}
+.search-bar {
+  user-select: none;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.loupe-icon {
+  width: 40px;
+  height: 40px;
+  margin-left: 70px;
+}
+
+.search-text {
+  font-size: 16px;
+  color: white;
+}
+.poiskovoi{
+  margin-left: 300px;
+}
+.albom{
+  margin-left: 650px;
+  color: white;
+  font-size: 40px;
+}
+input[type="search"] {
+  padding: 10px; 
+  border: 1px solid #ccc; 
+  border-radius: 5px;
+  font-size: 16px; 
+  width: 500px;
+}
+
+/* При фокусе */
+input[type="search"]:focus {
+  outline: none; 
+  border-color: #007bff; 
+  box-shadow: 0 0 5px #007bff;
+}
+.glav{
+  margin-left: 50px;
+  margin-top:50px;
+}

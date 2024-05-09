@@ -1,0 +1,42 @@
+export const albumsData = [
+    {
+        img:'src/assets/albums/AM.jpg',
+        name:'AM',
+        singer:'Arctic Monkeys',
+    },
+    {
+        img:'src/assets/albums/Cristoforo colombo.jpg',
+        name:'Cristoforo colombo',
+        singer:'FRIENDLY THUG 52 NGG',
+    },
+    {
+        img:'src/assets/albums/Digitando.jpg',
+        name:'Digitando',
+        singer:'Gustavo Moura & Rafael',
+    },
+    {
+        img:'src/assets/albums/GOLDEN.jpg',
+        name:'GOLDEN',
+        singer:'jung kook',
+    },
+    {
+        img:'src/assets/albums/i like the way you kiss me.jpg',
+        name:'i like the way you kiss me',
+        singer:'Artemas',
+    },
+    {
+        img:'src/assets/albums/NOVЫЙ.jpg',
+        name:'NOVЫЙ',
+        singer:'V $ X V PRINCE',
+    },
+    {
+        img:'src/assets/albums/TBRN.jpg',
+        name:'TBRN',
+        singer:'Darkhan Juzz',
+    },
+    {
+        img:'src/assets/albums/Алиппе.jpg',
+        name:'Әліппе',
+        singer:'V $ X V PRINCE',
+    }
+]

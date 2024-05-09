@@ -1,0 +1,15 @@
+.star-rating {
+    font-size: 24px;
+    color: #cccccc;
+  }
+  
+  .star {
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .star:hover,
+  .star.selected {
+    color: #ffcc00; /* Цвет активированных или наведенных звезд */
+  }
+  
